@@ -1,0 +1,1 @@
+// Optional secure bridge (not needed unless using ipcRenderer)
