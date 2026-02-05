@@ -1,0 +1,17 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.steachbangladesh.app
+productName: Steach Bangladesh
+mac:
+  category: public.app-category.business
+  target:
+    - dmg
+  icon: build/icon.icns
+files:
+  - filter:
+      - electron/**/*
+      - nextjs-app/out/**/*
+      - nextjs-app/.next/**/*
+      - package.json
+electronVersion: 38.2.1
